@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 29 Apr 2021 13:09:00 +0000
+Source: ecl
+Binary: ecl
+Architecture: source amd64
+Version: 21.2.1-0.1619418966
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Ralf Stephan <me@ralf-stephan.name>
+Changed-By: Ralf Stephan <me@ralf-stephan.name>
+Description:
+ ecl        - Embeddable Common-Lisp: has an interpreter and can compile to C
+Changes:
+ ecl (21.2.1-0.1619418966) UNRELEASED; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ c66d582f0c0d2e2053314af356e9aa9f66d2f9b5 1243 ecl_21.2.1-0.1619418966.dsc
+ 0fecb82a991580b5d7e60fecccfd09f5a6a194c3 36938372 ecl_21.2.1.orig.tar.xz
+ daae6c2ce00f7ba825a27fb54364859b692c037c 73832 ecl_21.2.1-0.1619418966.debian.tar.xz
+ 6ec0f45b03daff9d30c51c14ed4dcd9e055647a4 6846344 ecl-dbgsym_21.2.1-0.1619418966_amd64.ddeb
+ 137cbf11b0625fbdd2c36146d041041a1456ae50 9799 ecl_21.2.1-0.1619418966_amd64.buildinfo
+ 8b0cf292596eb97270c9bcf557f13d1124cf5290 2798500 ecl_21.2.1-0.1619418966_amd64.deb
+Checksums-Sha256:
+ 21793ee05db9a7b8e3a429bb940eaaeb3a0ba7e69ae3dc9e2ee63575a19212ee 1243 ecl_21.2.1-0.1619418966.dsc
+ 6bbfd520ce83d209fb147a7bab8fabeefb9b9eaa9cd32f0971328040d9cb4ce4 36938372 ecl_21.2.1.orig.tar.xz
+ 033cc9c230c4c2a7a0549d3f7222bd528cc05469fa549ab9704d81727d7f1c36 73832 ecl_21.2.1-0.1619418966.debian.tar.xz
+ 7d101290ea8a0f0c4a77572d0d5002897d8f74d1397849477659cbab9eea1f8a 6846344 ecl-dbgsym_21.2.1-0.1619418966_amd64.ddeb
+ 42cc7c0ec9c0353d10295759be5cc66e04610d475f8c33a829806be466d5051e 9799 ecl_21.2.1-0.1619418966_amd64.buildinfo
+ 2d14bdd05b8ef4d806019a10e857e0481effcf298a15e64169a151af971ca98c 2798500 ecl_21.2.1-0.1619418966_amd64.deb
+Files:
+ ffa4094aefa72422d0c531f5407a744a 1243 lisp optional ecl_21.2.1-0.1619418966.dsc
+ 78aba2e9686e1cbbf40fc6c234402432 36938372 lisp optional ecl_21.2.1.orig.tar.xz
+ df8f6cc737634783d4eddd66dc4c3276 73832 lisp optional ecl_21.2.1-0.1619418966.debian.tar.xz
+ 51ae214286f876002e07ddd4c69905a5 6846344 debug optional ecl-dbgsym_21.2.1-0.1619418966_amd64.ddeb
+ 2f0d0c45086814648b90929e0f725634 9799 lisp optional ecl_21.2.1-0.1619418966_amd64.buildinfo
+ eac4bab751d980f84703ab66c01e2482 2798500 lisp optional ecl_21.2.1-0.1619418966_amd64.deb
