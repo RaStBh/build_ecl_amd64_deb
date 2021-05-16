@@ -1,0 +1,5 @@
+java:Depends=
+java:Recommends=
+shlibs:Depends=ecl, libc6 (>= 2.29), libffi7 (>= 3.3~20180313), libgc1c2 (>= 1:7.4.2), libgmp10
+misc:Depends=
+misc:Pre-Depends=

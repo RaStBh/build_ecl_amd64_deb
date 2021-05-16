@@ -1,0 +1,27 @@
+Package: ecl
+Version: 21.2.1-0.1619418966
+Architecture: amd64
+Maintainer: Ralf Stephan <me@ralf-stephan.name>
+Installed-Size: 14428
+Depends: libc6 (>= 2.29), libffi7 (>= 3.3~20180313), libgc1c2 (>= 1:7.4.2), libgmp10, libffi-dev, libgmp-dev, libncurses5-dev, libgc-dev, libatomic-ops-dev, gcc
+Section: lisp
+Priority: optional
+Homepage: https://common-lisp.net/project/ecl/
+Description: Embeddable Common-Lisp: has an interpreter and can compile to C
+ ECL stands for Embeddable Common-Lisp. The ECL project is an
+ effort to modernize Giuseppe Attardi's ECL environment to
+ produce an implementation of the Common-Lisp language
+ which complies to the ANSI X3J13 definition of the language.
+ .
+ The current ECL implementation features:
+  * A bytecodes compiler and interpreter.
+  * A translator to C.
+  * A UFFI-compatible interface to C code.
+  * A dynamic loader.
+  * The possibility to build standalone executables and DLLs.
+  * The Common-Lisp Object System (CLOS).
+  * Conditions and restarts for handling errors.
+  * Sockets as ordinary streams.
+  * The GNU Multiprecision library for fast bignum operations.
+  * A simple conservative mark & sweep garbage collector.
+  * The Boehm-Weiser garbage collector.
