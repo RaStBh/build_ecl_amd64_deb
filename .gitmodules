@@ -1,0 +1,3 @@
+[submodule "salsa.debian.org_common-lisp-team_ecl"]
+	path = salsa.debian.org_common-lisp-team_ecl
+	url = https://salsa.debian.org/common-lisp-team/ecl.git
