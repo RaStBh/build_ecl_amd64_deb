@@ -1,3 +1,10 @@
+ecl (21.2.1-0.1625487470) UNRELEASED; urgency=low
+
+  * Configure ecl equal to the package form Debian GNU/Linux
+    (override_dh_auto_configure).
+
+ -- Ralf Stephan <me@ralf-stephan.name>  Mon, 05 Jul 2021 12:21:12 +0000
+
 ecl (21.2.1-0.1619418966) UNRELEASED; urgency=low
 
   * Initial release.
