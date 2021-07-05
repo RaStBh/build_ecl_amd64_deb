@@ -59,3 +59,17 @@ override_dh_auto_test:
 # /usr/lib/<triplet>/ .  If the build system does not support
 # $(DEB_HOST_MULTIARCH), you may need to override some targets such as
 # dh_auto_configure or dh_auto_install to use $(DEB_HOST_MULTIARCH) .
+
+override_dh_auto_configure:
+        touch src/configure.in && \
+        touch src/aclocal.m4 && \
+        touch src/configure configure
+
+        dh_auto_configure -- \
+           --enable-gmp=system \
+           --with-tcp \
+           --enable-threads=yes \
+           --enable-boehm=system  \
+           --enable-libatomic=system \
+           --disable-rpath \
+           --with-x
