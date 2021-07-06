@@ -434,7 +434,7 @@ release (e.g. sid -> testing or testing -> stable).
 
 
 
-Conclusion: 
+Conclusion:
 
 <package-name>_<epoch>:<upstream-version>-<debian-version>.orig.tar.gz
 ecl           _0      :21.2.1            -0.1619418966    .orig.tar.gz
@@ -506,6 +506,8 @@ bash> make clean
 	--tar
         --targz 'x'
         --invoke 'debuild'
+
+# Run to init the build.
 
 bash> debmake \
           --judge \
@@ -736,6 +738,33 @@ bash> emacs ./debian/changelog
 
 bash> git add ./debian/changelog
 
+# Configure for test build.
+#
+#./configure
+#
+# Configure for build like the GNU/Linux Debian package.
+#
+#./configure \
+#--enable-gmp=system \
+#--enable-threads=yes \
+#--enable-boehm=system \
+#--enable-libatomic=system \
+#--disable-rpath \
+#--with-tcp \
+#--with-x
+#
+# Configre for build with asdf and defsystem.
+#
+./configure \
+--enable-gmp=system \
+--enable-threads=yes \
+--enable-boehm=system \
+--enable-libatomic=system \
+--disable-rpath \
+--with-asdf \
+--with-defsystem \
+--with-tcp \
+--with-x
 
 bash> DEB_BUILD_OPTIONS=nocheck dpkg-buildpackage --unsigned-source --unsigned-changes --invoke 'debuild'
 
