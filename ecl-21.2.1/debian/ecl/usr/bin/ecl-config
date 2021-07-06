@@ -36,5 +36,5 @@ if test "$echo_cflags" = "yes"; then
 fi
 
 if test "$echo_ldflags" = "yes"; then
-  echo "-Wl,--rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu $LDFLAGS -Wl,-Bsymbolic-functions -Wl,-z,relro     -lgc -lgc -lgc -lpthread -ldl -lm  "
+  echo " -L/usr/lib/x86_64-linux-gnu $LDFLAGS -Wl,-Bsymbolic-functions -Wl,-z,relro     -lgc -lgc -lgc -lpthread -ldl -lm  "
 fi

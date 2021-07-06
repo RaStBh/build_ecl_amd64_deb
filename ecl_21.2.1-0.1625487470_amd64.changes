@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 05 Jul 2021 12:21:12 +0000
+Source: ecl
+Binary: ecl
+Architecture: source amd64
+Version: 21.2.1-0.1625487470
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Ralf Stephan <me@ralf-stephan.name>
+Changed-By: Ralf Stephan <me@ralf-stephan.name>
+Description:
+ ecl        - Embeddable Common-Lisp: has an interpreter and can compile to C
+Changes:
+ ecl (21.2.1-0.1625487470) UNRELEASED; urgency=low
+ .
+   * Configure ecl equal to the package form Debian GNU/Linux
+     (override_dh_auto_configure).
+Checksums-Sha1:
+ 28bd539d97b150ef71a7eb2ebba1f5d6b3f37abd 1243 ecl_21.2.1-0.1625487470.dsc
+ 9e322c68149eeb005a6e0e9cc4aba420f17ea970 73980 ecl_21.2.1-0.1625487470.debian.tar.xz
+ 7961737626b66b6ecaba81dc2e2a4d7cc2609494 6845264 ecl-dbgsym_21.2.1-0.1625487470_amd64.ddeb
+ d18d241c29343df914b8256562838addd35c35e3 9853 ecl_21.2.1-0.1625487470_amd64.buildinfo
+ c1672aa31a95deff5593fa3aaaf955c5ee0d3629 2804796 ecl_21.2.1-0.1625487470_amd64.deb
+Checksums-Sha256:
+ 035ce4f914cbbb09f0e6edd5af20f0c82f352d97cce6a959b7d6e6cab6b3a23b 1243 ecl_21.2.1-0.1625487470.dsc
+ aa696a7c351e2fb1bd614a337eee21416202dd05f88e910e1c98a3ae52b0cfe2 73980 ecl_21.2.1-0.1625487470.debian.tar.xz
+ b8942496ba1a4f26843bf9b48cd47fd0916881f6a47c3181379b3995ff6fa26e 6845264 ecl-dbgsym_21.2.1-0.1625487470_amd64.ddeb
+ 15aef3136ef969a305b0d060f11a0daac41719467a7beb1c0f15617d9a7a2de2 9853 ecl_21.2.1-0.1625487470_amd64.buildinfo
+ ff42fe73e4cc366e78865b3a927bd869c1d583653dc54a7029dcc2e58a795fb4 2804796 ecl_21.2.1-0.1625487470_amd64.deb
+Files:
+ e777ddf8ba1ac7b5918e4a74a8103656 1243 lisp optional ecl_21.2.1-0.1625487470.dsc
+ 4ff75d7fcd536f7a0d50585232c4b333 73980 lisp optional ecl_21.2.1-0.1625487470.debian.tar.xz
+ d7d32b5003c8a79c4ec6ba6f2fd3bcdd 6845264 debug optional ecl-dbgsym_21.2.1-0.1625487470_amd64.ddeb
+ dde0a861e5dd41598a6a83df3bb7c17c 9853 lisp optional ecl_21.2.1-0.1625487470_amd64.buildinfo
+ f69ca918957044160699ddf003e05850 2804796 lisp optional ecl_21.2.1-0.1625487470_amd64.deb

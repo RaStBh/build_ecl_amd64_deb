@@ -1,0 +1,32 @@
+Format: 1.8
+Source: ecl
+Binary: ecl
+Architecture: source amd64
+Version: 21.2.1-0.1625547634
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Ralf Stephan <me@ralf-stephan.name>
+Description:
+ ecl        - Embeddable Common-Lisp: has an interpreter and can compile to C
+Changes:
+ ecl (21.2.1-0.1625547634) UNRELEASED; urgency=low
+ .
+   * Configure ecl to include asdf and defsystem.
+Checksums-Sha1:
+ 978176a83ca239caa10e55c82a4f48fbd2332f63 1243 ecl_21.2.1-0.1625547634.dsc
+ dd55d804b39c5515a36430d83b219b6e828d8bcf 74028 ecl_21.2.1-0.1625547634.debian.tar.xz
+ b379a81c42f0cde8f677828ecd2dc3ca882abe39 6847352 ecl-dbgsym_21.2.1-0.1625547634_amd64.ddeb
+ 79079e23006679fdcea687a58a97d99c8e7f7e28 9853 ecl_21.2.1-0.1625547634_amd64.buildinfo
+ a3b53f2bc73e1593d2d23cc863bf0f79a04f3340 2799296 ecl_21.2.1-0.1625547634_amd64.deb
+Checksums-Sha256:
+ 92a5edc84f8438c6561951a3b357e5947d5d820267f8ad5f37e156efa3dc807a 1243 ecl_21.2.1-0.1625547634.dsc
+ df8e9aaaee2e31612ce55671ade1162b3231e60940501904afc33929aae662ff 74028 ecl_21.2.1-0.1625547634.debian.tar.xz
+ 6521012f8fa8b574a54efdbb56d8f7043a26d9f787e702699204a9c4823b98da 6847352 ecl-dbgsym_21.2.1-0.1625547634_amd64.ddeb
+ 361201ff3ea5e16ae7f518cabcc5bfb83b8fd0f5e36500734b024cf8f9244375 9853 ecl_21.2.1-0.1625547634_amd64.buildinfo
+ 52d4bcb08b324ced8162c92be75ac1f4e95d2f8f2c27a6fb4166b0f55e5ce00b 2799296 ecl_21.2.1-0.1625547634_amd64.deb
+Files:
+ 3917b3301dff69bc8eb5498ee29acc0d 1243 lisp optional ecl_21.2.1-0.1625547634.dsc
+ 6ead56da99d940109d74e27f41237628 74028 lisp optional ecl_21.2.1-0.1625547634.debian.tar.xz
+ d42bf67883efffadfc072cf1c74c2601 6847352 debug optional ecl-dbgsym_21.2.1-0.1625547634_amd64.ddeb
+ 49228125972ce9649a17e3f2071ee06b 9853 lisp optional ecl_21.2.1-0.1625547634_amd64.buildinfo
+ 52223c48d9997e6c1ea2a38d7e1c802c 2799296 lisp optional ecl_21.2.1-0.1625547634_amd64.deb
