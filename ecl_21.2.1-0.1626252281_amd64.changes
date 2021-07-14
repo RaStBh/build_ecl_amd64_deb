@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 14 Jul 2021 08:46:14 +0000
+Source: ecl
+Binary: ecl
+Architecture: source amd64
+Version: 21.2.1-0.1626252281
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Ralf Stephan <me@ralf-stephan.name>
+Changed-By: Ralf Stephan <me@ralf-stephan.name>
+Description:
+ ecl        - Embeddable Common-Lisp: has an interpreter and can compile to C
+Changes:
+ ecl (21.2.1-0.1626252281) UNRELEASED; urgency=low
+ .
+   * Configure ecl to include asdf and defsystem.
+Checksums-Sha1:
+ d577362247eaed3f9b2bf9fe6f786b17aba053bd 1243 ecl_21.2.1-0.1626252281.dsc
+ 9adf47edcdb5cd43291e745bc273dd0b7dc4e1b6 74052 ecl_21.2.1-0.1626252281.debian.tar.xz
+ 2ac2e35a534ab0938ad0795d9b6d428bf93d3103 6846528 ecl-dbgsym_21.2.1-0.1626252281_amd64.ddeb
+ dbeecc0a29a75462593c1782a5c454b9a887bd70 9853 ecl_21.2.1-0.1626252281_amd64.buildinfo
+ a77185c6083033d778a3093e0fe5d65595141c1b 2787964 ecl_21.2.1-0.1626252281_amd64.deb
+Checksums-Sha256:
+ 6f354617c5f5806db4f79f7427d198ef5c5cdf0fc20ed9a960f8c6b137030a3e 1243 ecl_21.2.1-0.1626252281.dsc
+ 8739c7c8afab20a719ab58b66af602f88ca1ff75772ccd330794709765062b3e 74052 ecl_21.2.1-0.1626252281.debian.tar.xz
+ 0f4d7bfb74f5613eeb6b45dfe24286aef9a09258642bdc7dbf0a92d86a53d882 6846528 ecl-dbgsym_21.2.1-0.1626252281_amd64.ddeb
+ 740cf845d9734561f7dab570d3cabe0e712b90b6f3c9e53acd18680dfa697256 9853 ecl_21.2.1-0.1626252281_amd64.buildinfo
+ 74b5b2b5fcf911ae7a9b82e0f3925173eeb33da165b18103a30b834be489c60b 2787964 ecl_21.2.1-0.1626252281_amd64.deb
+Files:
+ 4b0ec1b4898beb7266c175b8b3646cc6 1243 lisp optional ecl_21.2.1-0.1626252281.dsc
+ fee99f8e169d6533dcc0db1a46654783 74052 lisp optional ecl_21.2.1-0.1626252281.debian.tar.xz
+ d1822760820c4288dd7fdd57223b6d99 6846528 debug optional ecl-dbgsym_21.2.1-0.1626252281_amd64.ddeb
+ 553780ba0eba18ec123f32ac5a5f092e 9853 lisp optional ecl_21.2.1-0.1626252281_amd64.buildinfo
+ dffcc31225492b5def457d1125f38124 2787964 lisp optional ecl_21.2.1-0.1626252281_amd64.deb
