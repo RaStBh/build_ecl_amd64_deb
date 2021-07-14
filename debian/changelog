@@ -1,3 +1,15 @@
+ecl (21.2.1-0.1626252281) UNRELEASED; urgency=low
+
+  * Configure ecl to include asdf and defsystem.
+
+ -- Ralf Stephan <me@ralf-stephan.name>  Wed, 14 Jul 2021 08:46:14 +0000
+
+ecl (21.2.1-0.1625547634) UNRELEASED; urgency=low
+
+  * Configure ecl to include asdf and defsystem.
+
+ -- Ralf Stephan <me@ralf-stephan.name>  Tue, 06 Jul 2021 05:09:47 +0000
+
 ecl (21.2.1-0.1625487470) UNRELEASED; urgency=low
 
   * Configure ecl equal to the package form Debian GNU/Linux

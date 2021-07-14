@@ -71,4 +71,7 @@ override_dh_auto_configure:
 	--enable-boehm=system  \
 	--enable-libatomic=system \
 	--disable-rpath \
-	--with-x
+	--with-x \
+	--with-asdf
+	--with-defsystem
+	--enable-debug
